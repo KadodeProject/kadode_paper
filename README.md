@@ -1,14 +1,15 @@
 # 使い方
 
 ```
-git clone --recursive https://github.com/KadodeProject/kadode_paper.git
+git clone https://github.com/KadodeProject/kadode_paper.git
 ```
 
-client はhttps://github.com/Usuyuki/M5Paper_daily_calender_web を使用。  
-server/app で描画したものを server/converter で画像化し、client を書き込んだ M5Paper で表示する。
+## ビルド
 
-サブモジュールの更新
+PlatformIO を用いる.
 
-```
-git submodule update --remote
-```
+## 開発時の注意
+
+- Windows の場合は WSL でなく、C ドライブ配下に clone する(M5Paper への書き込みができない)
+
+書き込み用の PlatformIO を発動するために 同封の kadode_paper.code-workspace で起動する(階層が一つしたなのでそのままだと自動しない)

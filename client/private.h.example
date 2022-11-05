@@ -1,0 +1,12 @@
+//無線LANのSSID
+ char *ssid = "hogehoge";
+
+//無線LANのパスワード
+ char *password = "fugafuga";
+
+
+//m5に表示する用の画像のURL
+ char *jpegUrl = "https://paper.kado.day/";
+
+//更新する時間 単位(分)
+ int updateCycleMin = 30;
