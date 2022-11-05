@@ -1,0 +1,9 @@
+📱client:
+  - client
+⚙server:
+  - server
+🐙github:
+  - .github/*
+📄docs:
+  - README.md
+  - LICENSE
