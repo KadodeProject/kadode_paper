@@ -1,7 +1,7 @@
 📱client:
-  - client
+  - client/*
 ⚙server:
-  - server
+  - server/*
 🐙github:
   - .github/*
 📄docs:
