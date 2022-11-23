@@ -135,7 +135,8 @@ void loop()
     dtostrf(tem, 2, 2, temStr); // 小数点を含む数値を文字列に変換
     dtostrf(hum, 2, 2, humStr);
     canvas.setTextSize(2);
-    canvas.drawString("Batt:" + String(btLevel) + "%   " + "Temp:" + String(temStr) + "*C  " + "Humi:" + String(humStr) + "%", 0, 0);
+    // 左下に調整
+    canvas.drawString("Batt:" + String(btLevel) + "%   " + "Temp:" + String(temStr) + "*C  " + "Humi:" + String(humStr) + "%", 5, 520);
 
     // 描画
     canvas.pushCanvas(0, 0, UPDATE_MODE_GC16);
