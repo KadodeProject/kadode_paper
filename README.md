@@ -4,6 +4,12 @@
 git clone https://github.com/KadodeProject/kadode_paper.git
 ```
 
+# 動作
+
+![IMG20221124084504](https://user-images.githubusercontent.com/63891531/203664729-256811f6-9dd3-4d41-a34c-15e09e02aa00.jpg)
+
+
+
 ## ビルド
 
 PlatformIO を用いる.
